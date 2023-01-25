@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# this script loops numbers and displays little words withing certain guidelines
+for x in {1..100}
+do
+	if [[ $((x % 5)) -eq 0 ]] && [[ $((x % 3)) -eq 0 ]]
+	then
+		echo "FizzBuzz"
+	elif [ $((x % 3)) -eq 0 ]
+		then
+		echo "Fizz"
+	elif [ $((x % 5)) -eq 0 ]
+		then
+			echo "Buzz"
+	else
+		echo "$x"
+	fi
+done
