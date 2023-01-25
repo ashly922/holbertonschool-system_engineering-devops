@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#this script also kills task 4's script, but without kill or killall
+pkill -f 4-to_infinity_and_beyond
