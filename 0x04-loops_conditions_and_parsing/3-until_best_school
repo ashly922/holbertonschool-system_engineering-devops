@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script will also create a loop but w 'until'
+counter=0
+
+until [ $counter -gt 9 ]
+do
+	echo Best School
+	((counter++))
+done
